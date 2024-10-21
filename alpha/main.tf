@@ -1,2 +1,2 @@
 # tf1
-resource "aws"
+provider "aws" {}
