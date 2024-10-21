@@ -1,4 +1,4 @@
 # tf1
 provider "aws" {}
 
-provider "aws" {}
+provider "sumo" {}
