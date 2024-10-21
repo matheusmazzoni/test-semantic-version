@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.4.0...alpha_1.5.0) (2024-10-21)
+
+### Features
+
+* test novo ([317d8b7](https://github.com/matheusmazzoni/test-semantic-version/commit/317d8b7474eff22a0265e39e08575ed0c39e19af))
+
 ## [1.4.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.3.0...alpha_1.4.0) (2024-10-21)
 
 ### Features
