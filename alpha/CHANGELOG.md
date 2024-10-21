@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.5.0...alpha_1.6.0) (2024-10-21)
+
+### Features
+
+* update workflows ([9008d23](https://github.com/matheusmazzoni/test-semantic-version/commit/9008d235a51580bf04f7f820f2aebc952f7d05ed))
+
 ## [1.5.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.4.0...alpha_1.5.0) (2024-10-21)
 
 ### Features
