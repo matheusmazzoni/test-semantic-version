@@ -6,6 +6,9 @@ on:
       module_name:
         required: true
         type: string
+    secrets:
+      SEMANTIC_RELEASE_TOKEN:
+        required: true
 
 permissions:
   contents: read
