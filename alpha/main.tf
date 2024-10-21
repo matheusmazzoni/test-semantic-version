@@ -2,3 +2,5 @@
 provider "aws" {}
 
 provider "sumo" {}
+
+provider "aws" {}
