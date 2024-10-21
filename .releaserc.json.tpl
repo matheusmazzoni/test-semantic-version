@@ -19,7 +19,7 @@
     [
       "@semantic-release/github",
       {
-        "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version alpha_${nextRelease.version} :tada:",
+        "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version module_name_${nextRelease.version} :tada:",
         "labels": false,
         "releasedLabels": false
       }
@@ -27,8 +27,9 @@
     [
       "@semantic-release/changelog",
       {
-        "changelogFile": "CHANGELOG.md",
-        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file."
+        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file.",
+        "changelogFile": "CHANGELOG.md"
+        
       }
     ],
     [
@@ -37,7 +38,7 @@
         "assets": [
           "CHANGELOG.md"
         ],
-        "message": "chore(release): version alpha_${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        "message": "chore(release): version module_name_${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
   ]

@@ -9,6 +9,9 @@ on:
     paths:
       - 'alpha/*'
 
+env:
+  MODULE_NAME: alpha
+
 jobs:
   release:
     name: Release
@@ -19,16 +22,17 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
+      
       - name: Update .releaserc.json with Module Name
-        working-directory: ./alpha
         run: |
-          MODULE_NAME=${{ env.moduleName }}
-          jq '.tagFormat = "alpha_${version}"' .releaserc.json > temp.json && mv temp.json .releaserc.json
+          sed -i 's/"module_name"/"'$MODULE_NAME'"/g' .releaserc.json.tpl
+          cp .releaserc.json.tpl $MODULE_NAME/.releaserc.json
 
       - name: Release
         uses: cycjimmy/semantic-release-action@v4
         with:
-          working_directory: ./alpha
+          working_directory: ./${{ env.MODULE_NAME }}
+          tag_format: ${{ env.MODULE_NAME }}_${version}
           extra_plugins: |
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
