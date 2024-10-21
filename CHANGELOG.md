@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.1.0...alpha_1.2.0) (2024-10-21)
+
+### Features
+
+* remove sumologic provider ([f1ac149](https://github.com/matheusmazzoni/test-semantic-version/commit/f1ac149b5799cc43c859ee1bd2d2e016b1ea3dc3))
+* update alpha ([2647bf8](https://github.com/matheusmazzoni/test-semantic-version/commit/2647bf8bd1238bdbb6610436e4c98a7bc3b2eb39))
+
 ## [1.1.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.0.0...alpha_1.1.0) (2024-10-21)
 
 ### Features

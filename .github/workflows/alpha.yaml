@@ -20,14 +20,15 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
       - name: Update .releaserc.json with Module Name
+        working-directory: ./alpha
         run: |
           MODULE_NAME=${{ env.moduleName }}
           jq '.tagFormat = "alpha_${version}"' .releaserc.json > temp.json && mv temp.json .releaserc.json
 
       - name: Release
         uses: cycjimmy/semantic-release-action@v4
-        working-directory: ./alpha
         with:
+          working_directory: ./alpha
           extra_plugins: |
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
