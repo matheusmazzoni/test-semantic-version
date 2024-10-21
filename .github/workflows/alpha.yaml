@@ -7,10 +7,7 @@ on:
       - main
       - master
     paths:
-      - '**/*.tpl'
-      - '**/*.py'
-      - '**/*.tf'
-      - '.github/workflows/release.yaml'
+      - 'alpha/*'
 
 jobs:
   release:
@@ -26,7 +23,7 @@ jobs:
       - name: Release
         uses: cycjimmy/semantic-release-action@v4
         with:
-          tag_format: custom_${version}
+          tag_format: alpha_${version}
           extra_plugins: |
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
