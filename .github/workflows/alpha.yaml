@@ -11,36 +11,8 @@ on:
 
 env:
   module_name: alpha
-#jobs:
-#  call-template:
-#    uses: matheusmazzoni/test-semantic-version/.github/workflows/release.yaml@main
-#    with:
-#      module_name: "alpha"
-
 jobs:
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-          fetch-depth: 0
-      
-      - name: Update .releaserc.json with Module Name
-        run: |
-          export MODULE_NAME=${{ env.module_name }}
-          sed -i 's/module_name/'$MODULE_NAME'/g' .releaserc.json.tpl 
-          cp .releaserc.json.tpl $MODULE_NAME/.releaserc.json
-
-      - name: Release
-        uses: cycjimmy/semantic-release-action@v4
-        with:
-          working_directory: ./${{ env.module_name }}
-          tag_format: ${{ env.module_name }}_${version}
-          extra_plugins: |
-            @semantic-release/changelog@6.0.3
-            @semantic-release/git@10.0.1
-            conventional-changelog-conventionalcommits@8.0.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
+  call-template:
+    uses: matheusmazzoni/test-semantic-version/.github/workflows/release.yaml@main
+    with:
+      module_name: "alpha"
