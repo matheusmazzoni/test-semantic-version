@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.7.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.6.0...alpha_1.7.0) (2024-10-21)
+
+### Features
+
+* create aws ([7139457](https://github.com/matheusmazzoni/test-semantic-version/commit/7139457746408e95b29e3723672cc96246abba65))
+* create sumo ([656bfa6](https://github.com/matheusmazzoni/test-semantic-version/commit/656bfa6d03d4d38a95131b10a2ef4a7cb03a49ca))
+
+### Bug Fixes
+
+* remove aws and sumo ([bd56fec](https://github.com/matheusmazzoni/test-semantic-version/commit/bd56fec21cb546d5cdeab3a44bc5a581750f305a))
+
 ## [1.6.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.5.0...alpha_1.6.0) (2024-10-21)
 
 ### Features
