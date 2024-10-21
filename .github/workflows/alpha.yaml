@@ -16,3 +16,5 @@ jobs:
     uses: matheusmazzoni/test-semantic-version/.github/workflows/release.yaml@main
     with:
       module_name: "alpha"
+    secrets:
+      SEMANTIC_RELEASE_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
