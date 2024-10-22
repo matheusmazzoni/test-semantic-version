@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/matheusmazzoni/test-semantic-version/compare/beta_1.0.0...beta_1.1.0) (2024-10-22)
+
+### Features
+
+* **AAA-1234:** Test release ([#6](https://github.com/matheusmazzoni/test-semantic-version/issues/6)) ([e41ce8e](https://github.com/matheusmazzoni/test-semantic-version/commit/e41ce8e1a86e3f11958212ba75b5857ba17d494f))
+
 ## 1.0.0 (2024-10-22)
 
 ### Features
