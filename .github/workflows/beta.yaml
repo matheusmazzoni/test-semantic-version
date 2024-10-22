@@ -1,0 +1,18 @@
+name: Release Alpha Module
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'beta/*'
+
+jobs:
+  call-template:
+    uses: matheusmazzoni/test-semantic-version/.github/workflows/release.yaml@main
+    with:
+      module_name: "beta"
+    secrets:
+      SEMANTIC_RELEASE_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
