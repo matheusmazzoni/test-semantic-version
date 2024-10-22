@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.8.0...alpha_2.0.0) (2024-10-22)
+
+### ⚠ BREAKING CHANGES
+
+* **AAA-4321:** test break change2
+
+### Features
+
+* **AAA-4321:** test break change2 ([b0c18ea](https://github.com/matheusmazzoni/test-semantic-version/commit/b0c18ea11fa3bd1dd79c1be00a8224e0781f0fb1))
+
 ## [1.8.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.7.0...alpha_1.8.0) (2024-10-22)
 
 ### Features
