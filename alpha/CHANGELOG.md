@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.7.0...alpha_1.8.0) (2024-10-22)
+
+### Features
+
+* add aws provider ([#5](https://github.com/matheusmazzoni/test-semantic-version/issues/5)) ([96198dc](https://github.com/matheusmazzoni/test-semantic-version/commit/96198dc33f284ca0a4dcfe448c15d1433b994204))
+
 ## [1.7.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.6.0...alpha_1.7.0) (2024-10-21)
 
 ### Features
