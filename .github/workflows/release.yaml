@@ -28,9 +28,6 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install Dependencies
-        run: npm install
-      
       - name: Update .releaserc.json with Module Name
         run: |
           export MODULE_NAME=${{ inputs.module_name }}
