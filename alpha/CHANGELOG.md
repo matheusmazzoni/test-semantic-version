@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_2.0.0...alpha_3.0.0) (2024-11-19)
+
+### ⚠ BREAKING CHANGES
+
+* **cie-123:** test bc (#7)
+
+### Features
+
+* **cie-123:** test bc ([#7](https://github.com/matheusmazzoni/test-semantic-version/issues/7)) ([e3c07ca](https://github.com/matheusmazzoni/test-semantic-version/commit/e3c07ca53b9e73b5d060408b9854e15d69f97bd6))
+
 ## [2.0.0](https://github.com/matheusmazzoni/test-semantic-version/compare/alpha_1.8.0...alpha_2.0.0) (2024-10-22)
 
 ### ⚠ BREAKING CHANGES
